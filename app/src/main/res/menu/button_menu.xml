@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_1"
+        android:enabled="true"
+        android:icon="@drawable/instargram1"
+        android:title="instargram" />
+    <item
+        android:id="@+id/action_2"
+        android:enabled="true"
+        android:icon="@drawable/message"
+        android:title="message" />
+    <item
+        android:id="@+id/action_3"
+        android:enabled="true"
+        android:icon="@drawable/music"
+        android:title="News" />
+    <item
+        android:id="@+id/action_4"
+        android:enabled="true"
+        android:icon="@drawable/watch"
+        android:title="watch" />
+    <item
+        android:id="@+id/action_5"
+        android:enabled="true"
+        android:icon="@drawable/clip"
+        android:title="clip" />
+</menu>

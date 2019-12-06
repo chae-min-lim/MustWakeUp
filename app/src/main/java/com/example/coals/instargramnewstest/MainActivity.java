@@ -6,6 +6,7 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
 
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private Fragment3 fragment3;
     private Fragment4 fragment4;
     private Fragment5 fragment5;
+    private static final String TAG="MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         fragment3 = new Fragment3();
         fragment4 = new Fragment4();
         fragment5 = new Fragment5();
+        Log.d(TAG,"onCreate");
         //bottomMenu 를 변경을 했을때 해당된 fragment를 세팅하는 리스너
         bottomMenu.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override

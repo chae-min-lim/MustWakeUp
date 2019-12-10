@@ -14,6 +14,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:itemIconTint="#ed130f"
+        app:layout_behavior="tech.thdev.app.view.BottomNavigationBehavior"
         app:menu="@menu/button_menu" />
 
     <FrameLayout

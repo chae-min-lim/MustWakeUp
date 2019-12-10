@@ -77,7 +77,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         }
 
         Uri uri = Uri.parse(news.getUrlToImage());
-
         holder.ImageView_title.setImageURI(uri);
 
         //tag - label v에 태그를 준다.

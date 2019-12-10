@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/action_1"
-        android:enabled="true"
-        android:icon="@drawable/instargram1"
-        android:title="instargram" />
-    <item
         android:id="@+id/action_2"
         android:enabled="true"
-        android:icon="@drawable/message"
-        android:title="message" />
+        android:icon="@drawable/alarm"
+        android:title="alarm" />
     <item
         android:id="@+id/action_3"
         android:enabled="true"
-        android:icon="@drawable/music"
+        android:icon="@drawable/news"
         android:title="News" />
     <item
         android:id="@+id/action_4"
         android:enabled="true"
-        android:icon="@drawable/watch"
-        android:title="watch" />
+        android:icon="@drawable/weather"
+        android:title="weather" />
     <item
         android:id="@+id/action_5"
         android:enabled="true"
-        android:icon="@drawable/clip"
-        android:title="clip" />
+        android:icon="@drawable/setting"
+        android:title="setting" />
 </menu>

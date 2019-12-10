@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
-                    case R.id.action_1: //프레그먼트 화면전환
-                        setChangeFragment(0);
-                        break;
+//                    case R.id.action_1: //프레그먼트 화면전환
+//                        setChangeFragment(0);
+//                        break;
                     case R.id.action_2:
                         setChangeFragment(1);
                         break;

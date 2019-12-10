@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Start_app" parent="android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/alarmweather</item>
+    </style>
+
 </resources>

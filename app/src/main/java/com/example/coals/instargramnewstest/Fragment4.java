@@ -11,6 +11,12 @@ import android.view.ViewGroup;
 public class Fragment4 extends Fragment {
     private View view;
 
+    public static Fragment4 newInstance(){
+        Fragment4 fragment4=new Fragment4();
+        return fragment4;
+    }
+
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

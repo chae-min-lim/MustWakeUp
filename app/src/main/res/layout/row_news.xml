@@ -30,7 +30,7 @@
                     android:scaleType="fitCenter"
                     android:background="@null"
                     android:layout_centerInParent="true"
-                    fresco:placeholderImage="@mipmap/ic_launcher"
+                    fresco:placeholderImage="@mipmap/news2"
                     />
 
                 <TextView

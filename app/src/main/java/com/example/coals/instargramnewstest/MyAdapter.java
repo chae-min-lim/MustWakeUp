@@ -13,7 +13,6 @@ import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     private ArrayList<NewsData> mDataset;
@@ -96,5 +95,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public NewsData getNews(int position) {
         return mDataset != null ? mDataset.get(position) : null;
     }
+    public void clear(){
+        mDataset.clear();
+        notifyDataSetChanged();
+    }
+    public void addAll(ArrayList<NewsData> list){
+        mDataset.addAll(list);
+        notifyDataSetChanged();
+    }
+
 
 }
